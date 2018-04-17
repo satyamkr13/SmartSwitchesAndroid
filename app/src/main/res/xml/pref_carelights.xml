@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<SwitchPreferenceCompat android:paddingLeft="8dp"
+    android:title="Resume on Restart"
+    android:summary="When turned on, it "
+    android:defaultValue="true"
+    android:key="RESUME"
+    android:textColor="@android:color/black"
+
+    />
+    <PreferenceScreen android:title="Default Settings"
+        >
+
+    </PreferenceScreen>
+    <SwitchPreferenceCompat
+        android:title="Smart turn off"
+        android:summary="Uses light sensor present on the bulb to automatically turn off lights when enough natural light is entering the room. This setting is independent of automatic brightness setting."
+        android:defaultValue="true"
+        android:key="SMARTOFF"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+    <PreferenceScreen android:title="Night Light   "
+        android:summary="Lower exposure to blue light before going to bed increases sleeping time by 1 hour.">
+
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Reading mode   "
+        >
+
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Relaxing, mode   "
+        >
+
+    </PreferenceScreen>
+
+</PreferenceScreen>
